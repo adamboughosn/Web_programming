@@ -1,0 +1,202 @@
+/* =========================================================
+   Personal Portfolio — Adam Bou Ghosn
+   Session 3 CSS only: selectors, box model, colors & units,
+   typography, one external stylesheet.
+   ========================================================= */
+
+/* --- Box model: make width include padding and border ---- */
+
+* {
+    box-sizing: border-box;
+}
+
+/* --- Typography and page colors -------------------------- */
+
+body {
+    background-color: #fbfaf9;
+    color: #241c2b;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    color: #4b2a6f;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.4rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.8rem;
+    border-bottom: 3px solid #e9a92c;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+a {
+    color: #4b2a6f;
+}
+
+/* --- Header ---------------------------------------------- */
+
+header {
+    background-color: #2e1a44;
+    border-bottom: 5px solid #e9a92c;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #ffffff;
+}
+
+.tagline {
+    color: #d9cce4;
+    font-size: 1rem;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+/* --- Navigation ------------------------------------------ */
+
+nav {
+    background-color: #4b2a6f;
+    padding: 14px 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 6px 14px;
+    text-decoration: none;
+}
+
+/* --- Main column and sections ---------------------------- */
+
+main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    border-top: 1px solid #ddd3e6;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.lead {
+    font-size: 1.2rem;
+}
+
+/* --- Intro image ----------------------------------------- */
+
+img {
+    border: 6px solid #ffffff;
+    border-bottom-color: #e9a92c;
+    display: block;
+    margin-top: 20px;
+}
+
+.caption {
+    color: #5e5468;
+    font-size: 0.85rem;
+    margin-top: 8px;
+}
+
+/* --- Lists ----------------------------------------------- */
+
+ul {
+    margin-top: 0;
+    padding-left: 22px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.highlights {
+    background-color: #f3eef8;
+    border-left: 4px solid #e9a92c;
+    list-style: none;
+    margin-top: 24px;
+    padding: 20px 20px 20px 24px;
+}
+
+.highlights li {
+    margin-bottom: 10px;
+}
+
+/* --- Contact form ---------------------------------------- */
+
+form {
+    background-color: #ffffff;
+    border: 1px solid #ddd3e6;
+    padding: 24px;
+}
+
+.field {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    font-size: 0.95rem;
+    margin-bottom: 6px;
+}
+
+input, textarea {
+    border: 1px solid #ddd3e6;
+    color: #241c2b;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1rem;
+    padding: 10px;
+    width: 100%;
+}
+
+button {
+    background-color: #4b2a6f;
+    border: 2px solid #4b2a6f;
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1rem;
+    padding: 12px 24px;
+}
+
+/* --- Footer ---------------------------------------------- */
+
+footer {
+    background-color: #2e1a44;
+    border-top: 5px solid #e9a92c;
+    color: #e6dcef;
+    margin-top: 50px;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #ffffff;
+    padding: 0 10px;
+}
+
+.copyright {
+    color: #b7a6c6;
+    font-size: 0.85rem;
+    margin-bottom: 0;
+}
