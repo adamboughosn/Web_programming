@@ -1,16 +1,7 @@
-/* =========================================================
-   Personal Portfolio — Adam Bou Ghosn
-   Session 3 CSS only: selectors, box model, colors & units,
-   typography, one external stylesheet.
-   ========================================================= */
-
-/* --- Box model: make width include padding and border ---- */
-
 * {
     box-sizing: border-box;
 }
 
-/* --- Typography and page colors -------------------------- */
 
 body {
     background-color: #fbfaf9;
@@ -52,7 +43,6 @@ a {
     color: #4b2a6f;
 }
 
-/* --- Header ---------------------------------------------- */
 
 header {
     background-color: #2e1a44;
@@ -72,7 +62,6 @@ header h1 {
     margin-bottom: 0;
 }
 
-/* --- Navigation ------------------------------------------ */
 
 nav {
     background-color: #4b2a6f;
@@ -86,8 +75,6 @@ nav a {
     padding: 6px 14px;
     text-decoration: none;
 }
-
-/* --- Main column and sections ---------------------------- */
 
 main {
     max-width: 760px;
@@ -105,8 +92,6 @@ section {
     font-size: 1.2rem;
 }
 
-/* --- Intro image ----------------------------------------- */
-
 img {
     border: 6px solid #ffffff;
     border-bottom-color: #e9a92c;
@@ -119,8 +104,6 @@ img {
     font-size: 0.85rem;
     margin-top: 8px;
 }
-
-/* --- Lists ----------------------------------------------- */
 
 ul {
     margin-top: 0;
@@ -142,8 +125,6 @@ li {
 .highlights li {
     margin-bottom: 10px;
 }
-
-/* --- Contact form ---------------------------------------- */
 
 form {
     background-color: #ffffff;
@@ -178,8 +159,6 @@ button {
     font-size: 1rem;
     padding: 12px 24px;
 }
-
-/* --- Footer ---------------------------------------------- */
 
 footer {
     background-color: #2e1a44;
